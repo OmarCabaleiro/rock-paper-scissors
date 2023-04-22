@@ -21,7 +21,7 @@ function userRock() {
       results.innerHTML = "Rock vs. Paper<br> You LOSE!"
   } else {
       results.innerHTML = "Rock vs. Scissors<br> You WIN!"
-  };
+  }
 };
 
 function userPaper() {
@@ -43,22 +43,3 @@ function userScissors() {
       results.innerHTML = "Scissors vs. Scissors<br> DRAW!"
   }
 };
-
-/*
-// generate computer choice
-function getComputerChoice(arr) {
-
-  // get random index value
-  const randomIndex = Math.floor(Math.random() * arr.length);
-
-  // get random item
-  const item = arr[randomIndex];
-
-  return item;
-}
-
-const array = ['rock', 'paper', 'scissors'];
-
-const result = getComputerChoice(array);
-console.log(result);
-*/
